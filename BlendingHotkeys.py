@@ -1,12 +1,13 @@
 bl_info = {
     "name" : "Shortcuts for Blending modes",
     "author" : "Alumx",
-    "description" : "",
-    "blender" : (2, 80, 0),
+    "description" : "Adds ability to create shortcuts for blending modes",
+    "blender" : (2, 90, 0),
     "version" : (0, 1, 2),
     "location" : "",
     "warning" : "",
-    "category" : "Paint"
+    "category" : "Paint",
+    "wiki_url": "https://github.com/Alumx/BlendingHotkeys",
 }
 
 import bpy
@@ -22,7 +23,6 @@ class BlendModeMix(bpy.types.Operator):
         bpy.context.tool_settings.image_paint.brush.blend = 'MIX'
         return {'FINISHED'}
       
-    
     
 class BlendModeDark(bpy.types.Operator):
     bl_idname = "blendmode.dark"
