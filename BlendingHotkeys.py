@@ -3,7 +3,7 @@ bl_info = {
     "author" : "Alumx",
     "description" : "Adds ability to create shortcuts for blending modes",
     "blender" : (2, 90, 0),
-    "version" : (0, 1, 2),
+    "version" : (0, 1, 3),
     "location" : "",
     "warning" : "",
     "category" : "Paint",
