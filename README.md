@@ -2,7 +2,7 @@
 
 # BlendingHotkeys
 
-This addon adds functionality for Blender to change blending modes in Texture Paint and Vertex Paint mode.
+This addon adds functionality for Blender to change blending modes in Texture Paint mode. (NOTE, THIS ADDON DOESN'T WORK YET ON VERTEXT PAINT MODE)
 
 This is mainly inspired by such programs as Adobe Photoshop, where you are able to change blending modes via keyboard shortcuts (eg: Shift+Alt+M Multiply, Shift+Alt+S Screen, Shift+Alt+N Normal)
 ![enter image description here](https://user-images.githubusercontent.com/64172068/80041846-6ab01500-84f5-11ea-95e3-069bc1b066bf.png)
