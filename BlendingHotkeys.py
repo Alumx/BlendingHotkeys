@@ -91,8 +91,17 @@ class BlendModeColordodge(bpy.types.Operator):
     def execute(self, context):
         bpy.context.tool_settings.image_paint.brush.blend = 'COLORDODGE'
         return {'FINISHED'}
-  
-  
+
+
+class BlendModeAdd(bpy.types.Operator):
+    bl_idname = "blendmode.add"
+    bl_label = "Set blending mode to add"
+
+    def execute(self, context):
+        bpy.context.tool_settings.image_paint.brush.blend = 'ADD'
+        return {'FINISHED'}
+
+
 
 class BlendModeOverlay(bpy.types.Operator):
     bl_idname = "blendmode.overlay"
@@ -263,6 +272,7 @@ def register():
     bpy.utils.register_class(BlendModeCalor)
     bpy.utils.register_class(BlendModeColorburn)
     bpy.utils.register_class(BlendModeColordodge)
+    bpy.utils.register_class(BlendModeAdd)
     bpy.utils.register_class(BlendModeDark)
     bpy.utils.register_class(BlendModeDifference)
     bpy.utils.register_class(BlendModeErase_alpha)
@@ -287,6 +297,7 @@ def unregister():
     bpy.utils.register_class(BlendModeCalor)
     bpy.utils.register_class(BlendModeColorburn)
     bpy.utils.register_class(BlendModeColordodge)
+    bpy.utils.register_class(BlendModeAdd)
     bpy.utils.register_class(BlendModeDark)
     bpy.utils.register_class(BlendModeDifference)
     bpy.utils.register_class(BlendModeErase_alpha)
