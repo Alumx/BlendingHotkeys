@@ -27,6 +27,7 @@ Identifiers of operators
  - blendmode.lighten
  - blendmode.screen
  - blendmode.colordodge
+ - blendmode.add
  - blendmode.overlay
  - blendmode.softlight
  - blendmode.hardlight
